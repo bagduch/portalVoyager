@@ -1,7 +1,7 @@
 import axios from "axios";
 import { apiConfig } from "../configs";
 import { userConstants } from "../constants";
-import { history } from "../helpers";
+import history from "../history";
 
 export const userActions = {
   login,

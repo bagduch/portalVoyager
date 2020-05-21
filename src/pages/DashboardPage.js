@@ -1,13 +1,7 @@
-import React, { Component, Fragment } from "react";
+import React from "react";
+import AuthLayout from "../layout/AuthLayout";
 
-class DashboardPage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return <React.Fragment>Hello World</React.Fragment>;
-  }
-}
-
+const DashboardPage = (props) => {
+  return <AuthLayout></AuthLayout>;
+};
 export default DashboardPage;
